@@ -71,17 +71,17 @@ formEl.addEventListener('submit', function () {
         const overDiscount = travelPrice * 40 / 100
         const discountOver = travelPrice - overDiscount
         let offer = "Over Discount"
-        ticketPriceEl.innerText = discountOver.toFixed(2)
-        ticketOfferEl.innerText = offer
+        ticketPriceEl.innerHTML = `${discountOver.toFixed(2)}&euro;`
+        ticketOfferEl.innerHTML = offer
     } else if (Number(userAgeEl.value) < 18) {
         const minorDiscount = travelPrice * 20 / 100
         const discountMinor = travelPrice - minorDiscount
         let offer = "Minor Discount"
-        ticketPriceEl.innerText = discountMinor.toFixed(2)
+        ticketPriceEl.innerHTML = `${discountMinor.toFixed(2)}&euro;`
         ticketOfferEl.innerText = offer
     } else {
         let offer = "Regular"
-        ticketPriceEl.innerText = travelPrice.toFixed(2)
+        ticketPriceEl.innerHTML = `${travelPrice.toFixed(2)}&euro;`
         ticketOfferEl.innerText = offer
     }
     ticketNameEl.innerText = fullNameEl.value
