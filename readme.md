@@ -1,0 +1,1 @@
+In allegato l'eserciio suddiviso nei vari milestone se commentate man mano i vari milestone che non servono si può verificare il funzionamente di ogni parte singolarmente.
