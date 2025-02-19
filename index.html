@@ -10,8 +10,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
-    <!-- MILESTONE 2 -->
+<body class="bg-primary">
+    <!-- MILESTONE 2  -->
+    <!-- 
     <div class="container">
         <form action="">
             <div class="mb-3">
@@ -35,6 +36,56 @@
             <button type="submit">Submit</button>
             <div id="result"></div>
         </form>
+
+    </div>
+-->
+    <!-- MILESTONE 3 -->
+    <div class="container ">
+        <h1 class="my-5 text-center">Your data</h1>
+        <form class="m-3 p-3 row bg-light" action="">
+            <div class="mb-3 col-4 text-center">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" class="form-control" name="fullname" id="fullname" aria-describedby="nameHelpId"
+                    placeholder="Inginio Massari" />
+            </div>
+            <div class="mb-3 col-4 text-center">
+                <label for="userAge" class="form-label">Your Age</label>
+                <input type="number" class="form-control" name="userAge" id="userAge" aria-describedby="ageHelpId"
+                    placeholder="82" />
+            </div>
+            <div class="mb-3 col-4 text-center">
+                <label for="userKm" class="form-label">Km to travel</label>
+                <input type="number" class="form-control" name="userKm" id="userKm" aria-describedby="kmHelpId"
+                    placeholder="1200" />
+            </div>
+            <div class="col-12 text-center">
+                <span><button type="submit">Submit</button></span>
+                <span><button type="submit">Reset</button></span>
+            </div>
+        </form>
+        <h1 class="my-5 text-center">Your Train Ticket</h1>
+        <div class="row m-3 p-3 bg-light">
+            <h2>Trenitalia</h2>
+            <hr>
+            <div class="col-4">
+                <strong class="d-block">Name<span id="ticketName"></span></strong>
+                <strong class="d-block">Age<span id="ticketAge"></span></strong>
+                <strong class="d-block">Km<span id="ticketKm"></span></strong>
+            </div>
+            <div class="col-2">
+                <strong class="d-block">Offerta<span id="ticketOffer"></span></strong>
+
+            </div>
+            <div class="col-2">
+                <strong class="d-block">Carrozza<span id="ticketCarriage"></span></strong>
+
+            </div>
+            <div class="col-2">
+                <strong class="d-block">Prezzo<span id="ticketPrice"></span></strong>
+
+            </div>
+        </div>
+
 
     </div>
 

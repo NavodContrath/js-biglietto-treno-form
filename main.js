@@ -19,6 +19,7 @@ if (age > 65) {
 }
 */
 //MILESTONE 2
+/* 
 const priceKm = 0.21
 const formEl = document.querySelector("form")
 const fullNameEl = document.getElementById("fullname")
@@ -47,4 +48,6 @@ formEl.addEventListener('submit', function () {
         console.log(travelPrice);
     }
 }
-)
+) 
+*/
+/*  */
