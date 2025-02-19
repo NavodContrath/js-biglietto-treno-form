@@ -1,4 +1,5 @@
 //MILESTONE 1
+/*
 const fullName = prompt("type uor full name")
 const km = Number(prompt("type the number of km that u want to travel"))
 const age = Number(prompt("type uor age"))
@@ -16,4 +17,5 @@ if (age > 65) {
 } else if (isNaN(km) || isNaN(age)) {
     alert("please insert a numeric value")
 }
-
+*/
+//MILESTONE 2
