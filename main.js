@@ -60,8 +60,9 @@ const ticketNameEl = document.getElementById("ticketName")
 const ticketAgeEl = document.getElementById("ticketAge")
 const ticketKmEl = document.getElementById("ticketKm")
 const ticketOfferEl = document.getElementById("ticketOffer")
-const ticketCarriageEl = document.getElementById("ticketCarriage")
+const ticketWagonEl = document.getElementById("ticketWagon")
 const ticketPriceEl = document.getElementById("ticketPrice")
+const resetBtn = document.getElementById("reset_btn")
 
 
 formEl.addEventListener('submit', function () {
@@ -87,6 +88,9 @@ formEl.addEventListener('submit', function () {
     ticketNameEl.innerText = fullNameEl.value
     ticketAgeEl.innerText = userAgeEl.value
     ticketKmEl.innerText = userKmEl.value
-    ticketCarriageEl.innerText = Math.floor(Math.random() * 10 + 1)
+    ticketWagonEl.innerText = Math.floor(Math.random() * 10 + 1)
 }
-) 
+)
+resetBtn.addEventListener('click', function () {
+
+})
