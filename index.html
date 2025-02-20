@@ -46,17 +46,17 @@
             <div class="mb-3 col-4 text-center">
                 <label for="fullname" class="form-label">Full Name</label>
                 <input type="text" class="form-control" name="fullname" id="fullname" aria-describedby="nameHelpId"
-                    placeholder="Inginio Massari" />
+                    placeholder="Inginio Massari" required />
             </div>
             <div class="mb-3 col-4 text-center">
                 <label for="userAge" class="form-label">Your Age</label>
                 <input type="number" class="form-control" name="userAge" id="userAge" aria-describedby="ageHelpId"
-                    placeholder="82" />
+                    placeholder="82" required />
             </div>
             <div class="mb-3 col-4 text-center">
                 <label for="userKm" class="form-label">Km to travel</label>
                 <input type="number" class="form-control" name="userKm" id="userKm" aria-describedby="kmHelpId"
-                    placeholder="1200" />
+                    placeholder="1200" required />
             </div>
             <div class="col-12 text-center">
                 <span><button type="submit">Submit</button></span>
@@ -68,9 +68,12 @@
             <h2>Trenitalia</h2>
             <hr>
             <div class="col-4">
-                <strong class="d-block text-danger">Name<span id="ticketName" class="mx-3 text-dark"></span></strong>
-                <strong class="d-block text-danger">Age<span id="ticketAge" class="mx-3 text-dark"></span></strong>
-                <strong class="d-block text-danger">Km<span id="ticketKm" class="mx-3 text-dark"></span></strong>
+                <strong class="d-block text-danger">Name<span id="ticketName"
+                        class="mx-3 text-dark text-center"></span></strong>
+                <strong class="d-block text-danger">Age<span id="ticketAge"
+                        class="mx-3 text-dark text-center"></span></strong>
+                <strong class="d-block text-danger">Km<span id="ticketKm"
+                        class="mx-3 text-dark text-center"></span></strong>
             </div>
             <div class="col-2">
                 <strong class="d-block text-danger">Offer<span class="d-block text-dark"
